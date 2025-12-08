@@ -8,7 +8,15 @@ load_dotenv()
 NUM_RUNS_TIMES = 5
 
 # TODO: Fill this in!
-YOUR_SYSTEM_PROMPT = ""
+YOUR_SYSTEM_PROMPT = """你是一位數學專家。當解決問題時，請逐步思考：
+
+1. 先分析問題的數學原理
+2. 將複雜的計算分解成更小的部分
+3. 使用模運算的性質來簡化計算
+4. 展示每一步的推理過程
+5. 最後給出明確的答案
+
+請確保每一步都有解釋。"""
 
 
 USER_PROMPT = """
